@@ -1,0 +1,39 @@
+.headerSection {
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+}
+
+.headerBox {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerHeading {
+    font-size: 2rem;
+    font-family: JosefineSans;
+}
+span {
+    font-size: 2.5rem;
+    font-family: Great Vibes;
+}
+
+nav {
+    width: 23vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerLink {
+    color: black;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+.headerLink:hover {
+    text-decoration: underline;
+}
