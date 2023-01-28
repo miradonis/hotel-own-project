@@ -1,0 +1,45 @@
+.coronaSection {
+    width: 80%;
+    margin: 7% auto 7% auto;
+    font-family: JosefineSans;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgb(121, 121, 121);
+    border-radius: 15px;
+    border: 1px solid rgb(187, 187, 187);
+}
+
+.coronaIconAndHeading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2% 3%;
+    background-color: #9db7e3;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.coronaIconAndHeading img {
+    width: 40px;
+    margin-right: 2%;
+}
+
+.coronaIconAndHeading h2 {
+    color: black;
+}
+
+.coronaText {
+    padding: 3% 3%;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.coronaTextSpan {
+    font-family: JosefineSans;
+    font-size: 1.1rem;
+    color: #9db7e3;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+

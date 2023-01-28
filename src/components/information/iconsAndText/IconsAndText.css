@@ -1,0 +1,55 @@
+.iconsAndTextSection {
+    width: 75%;
+    margin: 10vh auto 10vh auto;
+    font-family: JosefineSans;
+    /* box-shadow: 1px 1px 10px rgb(121, 121, 121);
+    border-radius: 15px;
+    border: 1px solid rgb(187, 187, 187); */
+    padding: 4% 4% 0 7%;
+    background-color: white;
+}
+
+.iconsAndTextHeading {
+    color: #9db7e3;
+    font-size: 2.3rem;
+    margin-bottom: .5vh;
+}
+
+.justALine {
+    background-color: #747474;
+    height: 1px;
+    margin-bottom: 7vh;
+}
+
+.iconsAndTextBox {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.iconsAndTextImg {
+    width: 50%;
+    margin-bottom: 6vh;
+    display: flex;
+    align-items: flex-start;
+}
+
+.iconsAndTextImg img{
+    width: 35px;
+    margin-right: 9%;
+}
+
+/* Styling for name of icons */
+.iconsAndTextName {
+    color: #9db7e3;
+    font-size: 1.3rem;
+    margin-bottom: 3%;
+    text-decoration: underline;
+}
+
+.iconsAndTextDescription {
+    color: #747474;
+    width: 70%;
+}

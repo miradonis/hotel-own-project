@@ -1,8 +1,11 @@
 .headerSection {
-    width: 100vw;
+    width: 100%;
     height: 15vh;
+    background-color: #E2DAD7;
+    box-shadow: 5px 5px 10px #4E483E;
     display: flex;
     align-items: center;
+    position: fixed;
 }
 
 .headerBox {
