@@ -23,6 +23,7 @@
 span {
     font-size: 2.5rem;
     font-family: Great Vibes;
+    color: #A24352;
 }
 
 nav {
@@ -39,4 +40,5 @@ nav {
 
 .headerLink:hover {
     text-decoration: underline;
+    color: #A24352;
 }

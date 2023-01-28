@@ -1,5 +1,5 @@
 .coronaSection {
-    width: 80%;
+    width: 60%;
     margin: 7% auto 7% auto;
     font-family: JosefineSans;
     background-color: white;
@@ -15,7 +15,7 @@
     align-items: center;
     width: 100%;
     padding: 2% 3%;
-    background-color: #9db7e3;
+    background-color: #A24352;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -38,7 +38,7 @@
 .coronaTextSpan {
     font-family: JosefineSans;
     font-size: 1.1rem;
-    color: #9db7e3;
+    color: #A24352;
     font-weight: bolder;
     text-decoration: underline;
 }

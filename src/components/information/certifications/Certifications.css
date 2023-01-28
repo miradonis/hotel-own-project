@@ -1,0 +1,59 @@
+.certificationSection {
+    width: 70%;
+    margin: 0 auto 20vh auto;
+}
+
+.certificationHeading {
+    color: #A24352;
+    font-size: 2.3rem;
+}
+
+.justALine {
+    background-color: #747474;
+    height: 1px;
+    margin-bottom: 10vh;
+}
+
+.certificationsBoxes {
+    display: flex;
+}
+
+.certification {
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.certificationUl {
+    width: 50%;
+}
+
+.certificationLi {
+    margin-bottom: 3%;
+}
+
+/* 
+==============================
+Styling for Icons
+============================== 
+*/
+
+.World {
+    width: 120px;
+    height: 120px;
+    margin-right: 10%;
+}
+
+.Premium {
+    width: 100px;
+    height: 100px;
+    margin-right: 10%;
+}
+
+.Check {
+    width: 100px;
+    height: 100px;
+    margin-right: 10%;
+    margin-top: 20px;
+}
+

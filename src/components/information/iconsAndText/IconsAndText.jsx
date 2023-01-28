@@ -5,7 +5,7 @@ import Cutlery from '../../../assets/img/icon/icon-cutlery.svg';
 import Wifi from '../../../assets/img/icon/icon-wifi.svg';
 import Paw from '../../../assets/img/icon/icon-paw.svg';
 import NoSmoking from '../../../assets/img/icon/icon-noSmoking.svg';
-import Description from '../../description/Description';
+import Description from '../../../components/information/description/Description';
 import CoronaBox from '../coronaBox/CoronaBox';
 
 const IconsAndText = () => {
