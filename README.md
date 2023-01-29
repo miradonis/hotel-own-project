@@ -17,5 +17,5 @@ The website is still a work in progress
 Goals:
   - Book and cancel rooms
   - Book and cancel excursions
-  - Various offers such as yoga, swimming with pigs, massages,......
+  - Various offers such as yoga, swimming with pigs 🐖, massages,......
   - database: save data and change it if necessary
