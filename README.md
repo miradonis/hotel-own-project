@@ -12,6 +12,7 @@ Used until now:
   - slick-carousel
   - ❗️Firebase is available but not used yet
 
+
 Goals:
   - Book and cancel rooms
   - Book and cancel excursions
