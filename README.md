@@ -1,5 +1,13 @@
-# Here is a website for my non-existent Hotel Lamoure.
+# Project to practice my skills
 The website is still a work in progress.
+
+Welcome to the Hotel Lamoure !!!
+
+Used until now:
+
+  - react-router-dom
+  - react-slick
+  - Firebase is available but not used yet
 
 
 
