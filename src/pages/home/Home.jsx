@@ -1,11 +1,13 @@
+import './Home.css';
 import Footer from '../../components/footer/Footer';
-import Gallery from '../../components/gallery/Gallery';
 import Header from '../../components/header/Header';
 import Certifications from '../../components/information/certifications/Certifications';
 import IconsAndText from '../../components/information/iconsAndText/IconsAndText';
-import './Home.css';
+import Rooms from '../../components/rooms/Rooms';
 
 const Home = () => {
+    {/* big picture as background ------ components inserted */ }
+
     return (
         <section className='homeSection'>
             <Header />
@@ -13,7 +15,7 @@ const Home = () => {
             <Footer />
             <IconsAndText />
             <Certifications />
-            <Gallery />
+            <Rooms />
         </section>
     );
 }

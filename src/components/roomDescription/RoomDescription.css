@@ -1,0 +1,27 @@
+.roomDescriptionSection {
+    padding-top: 10vh;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: JosefineSans;
+    color: #777777;
+}
+
+.roomDescriptionParagraph {
+    line-height: 30px;
+    margin-bottom: 2%;
+    font-size: 1.2rem;
+}
+
+/* Description for Suits */
+
+.suitParagraph {
+    font-size: 1.2rem;
+    margin-bottom: 2%;
+    font-family: JosefineSans;
+    line-height: 30px;
+}
+
+.suitSpan {
+    font-size: 1.7rem;
+}

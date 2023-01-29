@@ -1,0 +1,21 @@
+.roomsSection {
+    width: 70%;
+    margin: 0 auto 10vh auto;
+}
+
+.roomsHeading {
+    color: #A24352;
+    font-size: 2.3rem;
+}
+
+.roomsHeadingSlider {
+    font-size: 1.7rem;
+    width: 22vw;
+    margin: 0 auto 4vh auto;
+    font-family: JosefineSans;
+}
+
+.roomsHeadingSlider span {
+    font-size: 2.3rem;
+    margin-right: 1%;
+}

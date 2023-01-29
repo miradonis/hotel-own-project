@@ -9,6 +9,8 @@ import Description from '../../../components/information/description/Description
 import CoronaBox from '../coronaBox/CoronaBox';
 
 const IconsAndText = () => {
+    {/* icons with explanations of what the hotel offers. Corona component added at the end */ }
+
     return (
         <section className='iconsAndTextSection'>
             <h1 className='iconsAndTextHeading'>Hotel Information</h1>

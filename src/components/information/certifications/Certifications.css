@@ -1,6 +1,8 @@
 .certificationSection {
     width: 70%;
-    margin: 0 auto 20vh auto;
+    margin: 0 auto 30vh auto;
+    font-family: JosefineSans;
+    color: #777777;
 }
 
 .certificationHeading {

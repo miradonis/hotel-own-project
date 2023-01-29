@@ -2,6 +2,8 @@ import CoronaBox from '../coronaBox/CoronaBox';
 import './Description.css';
 
 const Description = () => {
+    {/* description about the hotel */ }
+
     return (
         <section className='descriptionSection'>
             <article>

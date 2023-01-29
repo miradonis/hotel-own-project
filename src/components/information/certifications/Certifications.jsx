@@ -4,6 +4,8 @@ import Check from '../../../assets/img/certifications/icon-check.svg';
 import World from '../../../assets/img/certifications/icon-world.svg';
 
 const Certifications = () => {
+    {/* certifications icons listing the individual points for the respective certification */ }
+
     return (
         <section className='certificationSection'>
             <h2 className='certificationHeading'>
@@ -64,11 +66,7 @@ const Certifications = () => {
                         </li>
                     </ul>
                 </div>
-
-
             </article>
-
-
         </section>
     );
 }

@@ -2,6 +2,7 @@ import './CoronaBox.css';
 import InfoSign from '../../../assets/img/icon/icon-information.svg';
 
 const CoronaBox = () => {
+    {/* corona info box with link (link leads to nowhere) */ }
     return (
         <section className='coronaSection'>
             <div className='coronaIconAndHeading'>
