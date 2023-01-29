@@ -1,4 +1,4 @@
-import CoronaBox from '../coronaBox/CoronaBox';
+
 import './Description.css';
 
 const Description = () => {

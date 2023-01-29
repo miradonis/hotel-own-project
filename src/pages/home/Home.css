@@ -5,3 +5,42 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+
+/* bar at the end of the section */
+.firstSection {
+    height: 10vh;
+    width: 100%;
+    background-color: #4E483E;
+    display: flex;
+    align-items: center;
+    /* position: fixed;
+    bottom: 0px; */
+    /* left: 0px;
+    right: 0px; */
+}
+
+.firstBox {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.firstText {
+    /* width: 67%; */
+    margin: 0 auto;
+    font-family: JosefineSans;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+}
+
+.firstSpan {
+    font-size: 2rem;
+}
+
+.firstImg {
+    width: 6%;
+}

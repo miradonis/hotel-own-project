@@ -18,16 +18,18 @@
 
 .certificationsBoxes {
     display: flex;
+    width: 100%;
+    justify-content: space-around;
 }
 
 .certification {
-    width: 40%;
+    width: 30%;
     display: flex;
     align-items: center;
 }
 
 .certificationUl {
-    width: 50%;
+    width: 60%;
 }
 
 .certificationLi {
@@ -41,20 +43,20 @@ Styling for Icons
 */
 
 .World {
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     margin-right: 10%;
 }
 
 .Premium {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     margin-right: 10%;
 }
 
 .Check {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     margin-right: 10%;
     margin-top: 20px;
 }

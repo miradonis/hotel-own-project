@@ -1,12 +1,11 @@
 import './IconsAndText.css';
-import Calender from '../../../assets/img/icon/icon-calendar.svg';
-import Parking from '../../../assets/img/icon/icon-parkingSign.svg'
-import Cutlery from '../../../assets/img/icon/icon-cutlery.svg';
-import Wifi from '../../../assets/img/icon/icon-wifi.svg';
-import Paw from '../../../assets/img/icon/icon-paw.svg';
-import NoSmoking from '../../../assets/img/icon/icon-noSmoking.svg';
-import Description from '../../../components/information/description/Description';
-import CoronaBox from '../coronaBox/CoronaBox';
+import Calender from '../../assets/img/icon/icon-calendar.svg';
+import Parking from '../../assets/img/icon/icon-parkingSign.svg'
+import Cutlery from '../../assets/img/icon/icon-cutlery.svg';
+import Wifi from '../../assets/img/icon/icon-wifi.svg';
+import Paw from '../../assets/img/icon/icon-paw.svg';
+import NoSmoking from '../../assets/img/icon/icon-noSmoking.svg';
+import InfoSign from '../../assets/img/icon/icon-information.svg';
 
 const IconsAndText = () => {
     {/* icons with explanations of what the hotel offers. Corona component added at the end */ }
@@ -83,11 +82,26 @@ const IconsAndText = () => {
                     </div>
                 </div>
             </article>
-            {/* CoronaBox-Component ------ link to detailed corona information (Link is missing) */}
-            <CoronaBox />
 
-            {/* Description-Component -------- Text about Hotel */}
-            {/* <Description /> */}
+
+            {/* CoronaBox-Component ------ link to detailed corona information (Link is missing) */}
+            <article className='coronaSection'>
+                <div className='coronaIconAndHeading'>
+                    <img alt='Info' src={InfoSign}></img>
+                    <h2 className='coronaHeading'>
+                        COVID-19 Information
+                    </h2>
+                </div>
+                <div className='coronaText'>
+                    <p className='coronaText First'>
+                        We have a number of measures in place to ensure you can stay with us safely. For more information click <span className='coronaTextSpan'>here</span>
+                    </p>
+                    <p className='coronaText Second'>
+                        Please be aware that hotels may be operating restricted services, for more information please contact the hotel directly.
+                    </p>
+                </div>
+            </article>
+
         </section>
     );
 }

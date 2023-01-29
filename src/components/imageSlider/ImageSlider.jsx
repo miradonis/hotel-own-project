@@ -3,7 +3,7 @@ import './ImageSlider.css';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Rooms from '../../roomsArray/RoomsArray';
+import Rooms from '../../data/RoomsArray';
 
 const ImageSlider = () => {
     const [sliderImages] = useState(Rooms);

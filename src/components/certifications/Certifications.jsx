@@ -1,7 +1,7 @@
 import './Certifications.css';
-import Premium from '../../../assets/img/certifications/icon-premium.png';
-import Check from '../../../assets/img/certifications/icon-check.svg';
-import World from '../../../assets/img/certifications/icon-world.svg';
+import Premium from '../../assets/img/certifications/icon-premium.png';
+import Check from '../../assets/img/certifications/icon-check.svg';
+import World from '../../assets/img/certifications/icon-world.svg';
 
 const Certifications = () => {
     {/* certifications icons listing the individual points for the respective certification */ }
@@ -40,9 +40,6 @@ const Certifications = () => {
                         </li>
                         <li className='certificationLi'>
                             Flat screen TV with many channels
-                        </li>
-                        <li className='certificationLi'>
-                            Mini bar and safe
                         </li>
                         <li className='certificationLi'>
                             Regularly checked by ABC CleanIsTrue World GmbH
