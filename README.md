@@ -11,7 +11,7 @@ Used until now:
   - react-slick
   - slick-carousel
   - ❗️Firebase is available but not used yet
-
+-----------------------------------------------------------------------
 
 Goals:
   - Book and cancel rooms
