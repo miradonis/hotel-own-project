@@ -3,6 +3,7 @@
 Welcome to the Hotel Lamoure !!! 🏨
 
 The website is still a work in progress
+-----------------------------------------------------------------------
 
 
 Used until now:
