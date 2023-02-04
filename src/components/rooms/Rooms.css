@@ -13,9 +13,11 @@
     width: 22vw;
     margin: 0 auto 4vh auto;
     font-family: JosefineSans;
+    /* text-align: center;      responsive*/
 }
 
 .roomsHeadingSlider span {
     font-size: 2.3rem;
     margin-right: 1%;
+    /* display: block;     responsive*/
 }

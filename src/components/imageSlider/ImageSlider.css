@@ -1,7 +1,7 @@
 .imageSliderSection {
     background-color: #E2DAD7;
     padding: 3%;
-    width: 50%;
+    width: 50%; /* change this value for responsive */
     margin: 0 auto;
 }
 
