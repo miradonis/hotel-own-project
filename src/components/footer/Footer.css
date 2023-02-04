@@ -24,10 +24,11 @@
 
 .footerSpan {
     font-size: 1.7rem;
+    font-weight: bolder;
 }
 
 .footerSmallBox p:nth-of-type(2) {
-    margin-top: 5%;
+    margin-top: 3%;
 }
 
 .socialIcons {

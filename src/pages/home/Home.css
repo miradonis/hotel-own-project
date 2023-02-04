@@ -14,10 +14,6 @@
     background-color: #4E483E;
     display: flex;
     align-items: center;
-    /* position: fixed;
-    bottom: 0px; */
-    /* left: 0px;
-    right: 0px; */
 }
 
 .firstBox {
@@ -29,7 +25,6 @@
 }
 
 .firstText {
-    /* width: 67%; */
     margin: 0 auto;
     font-family: JosefineSans;
     font-size: 1.5rem;

@@ -6,7 +6,8 @@ import "slick-carousel/slick/slick-theme.css";
 import Rooms from '../../data/RoomsArray';
 
 const ImageSlider = () => {
-    const [sliderImages] = useState(Rooms);
+    // const [sliderImages] = useState(Rooms);
+
 
     const settings = {
         dots: true,
@@ -15,13 +16,14 @@ const ImageSlider = () => {
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 4000
+        autoplaySpeed: 2000,
     };
+
 
     return (
         <section className='imageSliderSection'>
             <Slider {...settings} className="sliderBox">
-                {sliderImages.map((image, index) => (
+                {Rooms.map((image, index) => (
                     <img key={index} src={image.image} className="slider-image" alt="Slider Image" />
                 ))}
             </Slider>

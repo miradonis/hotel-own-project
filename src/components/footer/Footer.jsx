@@ -11,7 +11,7 @@ const Footer = () => {
                     <span className='footerSpan'>Hotel Lamoure</span>
                     <p>On every beach - worldwide</p>
                     <p>Phone: 0123/45678</p>
-                    <p>Mail: ueberall@abc.de</p>
+                    <p>Mail: AnywhereInThisWorld@abc.de</p>
                 </div>
 
                 <div className='footerSmallBox socialContact'>
