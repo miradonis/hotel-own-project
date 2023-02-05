@@ -1,0 +1,63 @@
+.bookingFormSection {
+    width: 45vw;
+    height: 12vh;
+    padding: 2% 0;
+    /* position: fixed;
+    top: 650px;
+    left: 500px; */
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: JosefineSans;
+    border-radius: 10px;
+    border: 1px solid #777777;
+    color: #777777;
+}
+
+/* ----------Choose Date---------- */
+.bookingFormChooseDate {
+    width: 40%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    border-right: 1px solid rgb(226, 226, 226);
+}
+
+.bookingFormImg {
+    width: 30px;
+    margin-right: 3%;
+    cursor: pointer;
+}
+
+.bookingFormGreenArrow {
+    width: 35px;
+    margin: 0 10%;
+}
+
+/* -----Choose Room and number of people----- */
+.bookingChoosePersonRoom {
+    width: 22%;
+    height: 8vh;
+    margin-left: 4%;
+    display: flex;
+    align-items: center;
+    border-right: 1px solid rgb(226, 226, 226);
+}
+
+.bookingPersonImg {
+    width: 30px;
+    margin-right: 5%;
+}
+
+ /* -----Booking Button----- */
+.bookingBtn {
+    padding: 1% 7%;
+    margin-left: 4%;
+    background-color: #556B2F;
+    color: white;
+    border: transparent;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
