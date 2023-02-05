@@ -11,17 +11,16 @@ const Home = () => {
     return (
         <section className='homeSection'>
             {/* <article className='homeArticle'></article> */}
-            {/* <BookingForm /> */}
-            <article className='firstSection' >
-                {/* <div className='firstBox'>
-                    <p className='firstText'>
-                        Experience a stay of exceptional class at  <span className='firstSpan'>Hotel Lamoure</span> - where excellence becomes a habit
-                    </p>
-                </div> */}
-                <BookingForm />
-            </article>
+            {/* <article className='firstSection' >
+                <div className='firstBox'>
+                <p className='firstText'>
+                Experience a stay of exceptional class at  <span className='firstSpan'>Hotel Lamoure</span> - where excellence becomes a habit
+                </p>
+                </div>
+            </article> */}
 
             {/* -------------- COMPONENTS ---------------- */}
+            <BookingForm />
             <IconsAndText />
             <Rooms />
             <Certifications />
