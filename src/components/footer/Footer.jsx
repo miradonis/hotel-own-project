@@ -4,7 +4,7 @@ import Instagram from '../../assets/img/icon/icon-instagram.svg';
 
 const Footer = () => {
     return (
-        <section className='footerSection'>
+        <section id='footer' className='footerSection'>
             <article className='footerBox'>
                 <div className='footerSmallBox'>
                     <p className='footerHeading'>Address</p>
