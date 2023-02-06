@@ -10,8 +10,8 @@ const Header = () => {
                 <h1 className="headerHeading">Welcome to <span>Hotel Lamoure</span></h1>
                 <nav>
                     <Link className="headerLink" to="/">Booking</Link>
-                    <Link className="headerLink" to="#rooms" onClick={() => {
-                        const element = document.getElementById("rooms");
+                    <Link className="headerLink" to="#roomsAnker" onClick={() => {
+                        const element = document.getElementById("roomsAnker");
                         element.scrollIntoView({ behavior: "smooth" });
                     }}>Rooms</Link>
                     <Link className="headerLink" to="/">Gallery</Link>

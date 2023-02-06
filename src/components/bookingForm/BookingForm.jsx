@@ -1,6 +1,5 @@
 import './BookingForm.css';
 import ChooseDate from '../../assets/img/icon/bookingImg.svg';
-import GreenArrow from '../../assets/img/icon/greenArrow.png';
 import GreenArrowNew from '../../assets/img/icon/arrowGreen.png';
 import BookingPerson from '../../assets/img/icon/bookingPerson.svg';
 

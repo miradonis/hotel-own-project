@@ -6,6 +6,7 @@ import Footer from '../../components/footer/Footer';
 import BookingForm from '../../components/bookingForm/BookingForm';
 import Header from '../../components/header/Header';
 import Description from '../../components/description/Description';
+import BookingAside from '../../components/bookingAside/BookingAside';
 
 const Home = () => {
     {/* big picture as background ------ components inserted */ }

@@ -1,0 +1,94 @@
+.bookingAsideSection {
+    width: 20vw;
+    position: fixed;
+    right: 50px;
+    top: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FEF6F3;
+    color: #777777;
+    font-family: JosefineSans;
+}
+
+.bookingAsideClose {
+    width: 40px;
+    margin: 1% 1% 5% 0;
+    align-self: flex-end;
+}
+
+.bookingAsideHeading {
+    color: #556b2f;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 15%;
+}
+
+.bookingAsideChooseDate {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bookingAsideParagraph {
+    padding-left: 5%;
+    margin-bottom: 2%;
+    font-size: .9rem;
+}
+
+
+.bookingAsideChooseDate input {
+    border: 1px solid #E0D9D7;
+    padding: 2%;
+}
+
+/* .bookingAsideCalendar {
+    width: 30px;
+    margin-right: 3%;
+} */
+
+.bookingAsideGreenArrow {
+    width: 40px;
+    height: auto;
+    /* margin: 4%; */
+}
+
+.bookingAsideChoosePersonRoomBox {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin: 20% auto 10% auto;
+    font-size: .9rem;
+}
+
+.bookingAsideChoosePersonText {
+    margin-bottom: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.bookingAsideChoosePersonRoom {
+    width: 30px;
+    margin-right: 5%;
+}
+
+.bookingAsideSelect {
+    padding: 2%;
+    border: 1px solid #E0D9D7;
+}
+
+.bookingAsideJustALine {
+    width: 90%;
+    height: 1px;
+    margin: 0 auto;
+    background-color: #E2E2E2;
+}
+
+.bookingAsideBtn {
+    padding: 2% 0;
+    margin: 8% 26%;
+    background-color: #556b2f;
+    color: white;
+    border: transparent;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
