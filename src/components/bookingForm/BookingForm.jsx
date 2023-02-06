@@ -7,7 +7,7 @@ import BookingPerson from '../../assets/img/icon/bookingPerson.svg';
 const BookingForm = () => {
 
     return (
-        <section className='bookingFormSection'>
+        <section id='bookingForm' className='bookingFormSection'>
             {
                 /* ----------Choose Date---------- */
             }

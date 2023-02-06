@@ -4,12 +4,15 @@ import IconsAndText from '../../components/iconsAndText/IconsAndText';
 import Rooms from '../../components/rooms/Rooms';
 import Footer from '../../components/footer/Footer';
 import BookingForm from '../../components/bookingForm/BookingForm';
+import Header from '../../components/header/Header';
+import Description from '../../components/description/Description';
 
 const Home = () => {
     {/* big picture as background ------ components inserted */ }
 
     return (
         <section className='homeSection'>
+            <Header />
             {/* <article className='homeArticle'></article> */}
             {/* <article className='firstSection' >
                 <div className='firstBox'>
@@ -21,6 +24,7 @@ const Home = () => {
 
             {/* -------------- COMPONENTS ---------------- */}
             <BookingForm />
+            <Description />
             <IconsAndText />
             <Rooms />
             <Certifications />

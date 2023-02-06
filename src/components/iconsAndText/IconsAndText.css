@@ -68,7 +68,7 @@
     align-items: center;
     width: 100%;
     padding: 2% 3%;
-    background-color: #A24352;
+    background-color: #556b2f;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -91,7 +91,7 @@
 .coronaTextSpan {
     font-family: JosefineSans;
     font-size: 1.1rem;
-    color: #A24352;
+    color: #556b2f;
     font-weight: bolder;
     text-decoration: underline;
 }
