@@ -3,6 +3,7 @@ import { db } from './Firebase';
 import { collection, getDocs, addDoc, updateDoc, getDoc, doc } from 'firebase/firestore';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from './pages/home/Home';
+import BookingAside from './components/bookingAside/BookingAside';
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
 	return (
 		<div className="App">
 			<Router>
+				<BookingAside />
 				<Routes>
 					<Route path="/" element={<Home />} />
 				</Routes>
