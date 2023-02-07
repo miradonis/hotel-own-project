@@ -41,7 +41,6 @@ function App() {
 	return (
 		<div className="App">
 			<Router>
-				<BookingAside />
 				<Routes>
 					<Route path="/" element={<Home />} />
 				</Routes>

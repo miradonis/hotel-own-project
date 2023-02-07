@@ -1,21 +1,26 @@
 import './BookingAside.css';
 import GreenArrowNew from '../../assets/img/icon/arrowGreen.png';
 import Close from '../../assets/img/icon/icon-close.png';
-import { useState } from 'react';
 import Header from '../header/Header';
 
-const BookingAside = () => {
+const BookingAside = ({ openForm, setOpenForm }) => {
 
-    const [closeForm, setCloseForm] = useState(false);
+    // über die props wird aus der Header Komponente der useState übergeben.
+
+    // Funktion die openForm state umdreht
+    // Sobald der Button (close) geklickt wird, wird der Wert in der Header Komponente verändert. Dies passiert weil hier mit props gearbeitet wird.
 
     const toggleButton = () => {
-        setCloseForm(prev => !prev);
+        setOpenForm(prev => !prev);
     };
 
 
     return (
-        <section className={`bookingAsideSection ${closeForm ? 'bookingAsideSectionHidden' : ''}`}>
-            <Header toggleButton={toggleButton} />
+        <section className={`bookingAsideSection ${!openForm ? 'bookingAsideSectionHidden' : ''}`}>
+
+            {
+                /* Durch Klick wird die Funktion toggleButton ausgelößt die den useState in Header ändert*/
+            }
             <img className='bookingAsideClose' onClick={toggleButton} src={Close} />
             <h2 className='bookingAsideHeading'>
                 Book a room now
@@ -39,7 +44,6 @@ const BookingAside = () => {
 
             <div className='bookingAsideChoosePersonRoomBox'>
                 <div className='bookingAsideChoosePersonText'>
-                    {/* <img className='bookingAsideChoosePersonRoom' src={BookingPerson} /> */}
                     <p className='bookingAsidePersonParagraph'>
                         Guest, Guests
                     </p>
