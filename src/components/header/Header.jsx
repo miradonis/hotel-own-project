@@ -18,7 +18,7 @@ const Header = () => {
         <>
             {/* 
             - BookingAside Komponente wird nur angezeigt, wenn openForm     true ist. 
-            - Wenn openForm false ist wird sofort abgebrochen wegen dem && Operator 
+            - Wenn openForm false ist wird sofort abgebrochen wegen dem && Operator.
             */}
             {openForm && <BookingAside openForm={openForm} setOpenForm={setOpenForm} />}
 
@@ -33,7 +33,10 @@ const Header = () => {
                             const element = document.getElementById("roomsAnker");
                             element.scrollIntoView({ behavior: "smooth" });
                         }}>Rooms</Link>
-                        <Link className="headerLink" to="/">Gallery</Link>
+                        <Link className="headerLink" to="#galleryAnker" onClick={() => {
+                            const element = document.getElementById("galleryAnker");
+                            element.scrollIntoView({ behavior: "smooth" });
+                        }}>Gallery</Link>
                         <Link className="headerLink" to="#footer" onClick={() => {
                             const element = document.getElementById("footer");
                             element.scrollIntoView({ behavior: "smooth" });

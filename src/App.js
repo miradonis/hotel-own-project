@@ -30,12 +30,6 @@ function App() {
 	// 	doubleBed: true
 	// })
 
-
-
-
-
-
-
 	/* ENDE!!!!!!!!! FIREBASE ------------------ Datenbank */
 
 	return (
