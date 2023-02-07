@@ -5,21 +5,28 @@ import BookingAside from '../bookingAside/BookingAside';
 import { useState } from "react";
 
 const Header = () => {
+    // useState Hook um den Wert des openForm State zu verwalten
+    const [openForm, setOpenForm] = useState(false);
+    // console.log(openForm);
 
-    const [closeForm, setCloseForm] = useState(false);
-
+    // Funktion die openForm state umdreht
     const toggleButtonHandler = () => {
-        setCloseForm(prev => !prev)
+        setOpenForm(prev => !prev)
     }
 
-
-    {/* name from hotel and navigation to components */ }
     return (
         <>
+            {/* 
+            - BookingAside Komponente wird nur angezeigt, wenn openForm     true ist. 
+            - Wenn openForm false ist wird sofort abgebrochen wegen dem && Operator 
+            */}
+            {openForm && <BookingAside openForm={openForm} setOpenForm={setOpenForm} />}
+
             <section className="headerSection">
                 <div className="headerBox">
                     <h1 className="headerHeading">Welcome to <span>Hotel Lamoure</span></h1>
                     <nav>
+                        {/* Klick auf Link ruft toggleButtonHandler auf */}
                         <Link className="headerLink" to="#" onClick={toggleButtonHandler}>Booking</Link>
 
                         <Link className="headerLink" to="#roomsAnker" onClick={() => {
@@ -38,7 +45,6 @@ const Header = () => {
                     </nav>
                 </div>
             </section >
-            {closeForm && <BookingAside />}
         </>
     );
 }
