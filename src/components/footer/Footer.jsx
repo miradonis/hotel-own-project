@@ -24,7 +24,7 @@ const Footer = () => {
                     <p className='footerHeading'>Important</p>
                     <p>Impressum</p>
                     <p>Privacy Policy</p>
-                    <p>Designed by Steffi 👸🏼</p>
+                    <p>Designed by Prinzessin Steffi 👸🏼</p>
                 </div>
             </article>
         </section>
