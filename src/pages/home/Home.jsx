@@ -7,6 +7,7 @@ import BookingForm from '../../components/bookingForm/BookingForm';
 import Header from '../../components/header/Header';
 import Description from '../../components/description/Description';
 import BookingAside from '../../components/bookingAside/BookingAside';
+import Gallery from '../../components/gallery/Gallery';
 
 const Home = () => {
     {/* big picture as background ------ components inserted */ }
@@ -28,6 +29,7 @@ const Home = () => {
             <Description />
             <IconsAndText />
             <Rooms />
+            <Gallery />
             <Certifications />
             <Footer />
         </section>

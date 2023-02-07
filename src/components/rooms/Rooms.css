@@ -1,13 +1,13 @@
 .roomsSection {
     width: 70%;
-    margin: 0 auto 30vh auto;
+    margin: 0 auto;
 }
 
+/* anchor point for rooms component */
 .roomsDivForLink {
     height: 17vh;
 }
 
-/* anchor point for rooms component */
 .roomsHeading {
     color: #A24352;
     font-size: 2.3rem;

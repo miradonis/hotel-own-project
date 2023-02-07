@@ -1,0 +1,49 @@
+.gallerySection {
+    width: 70%;
+    padding-bottom: 10%;
+    margin: 0 auto 10vh auto;
+}
+
+/* anchor point for rooms component */
+.galleryDivForLink {
+    height: 17vh;
+}
+
+.galleryHeading {
+    color: #A24352;
+    font-size: 2.3rem;
+}
+
+/* Box for high pictures */
+.galleryHighPicturesBox {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.HighPictures {
+    margin-bottom: 7%;
+    width: 13%;
+    border-radius: 8px;
+    box-shadow: 1px 1px 10px black;
+}
+
+.HighPictures:hover {
+    box-shadow: 2px 2px 10px #A24352;
+}
+
+/* Box for wide pictures */
+.galleryWidePicturesBox {
+    height: 20vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.WidePictures {
+    margin-bottom: 5%;
+    object-fit: cover;
+    width: 22%;
+    height: 100%;
+    border-radius: 8px;
+    box-shadow: 1px 1px 10px black;
+}
