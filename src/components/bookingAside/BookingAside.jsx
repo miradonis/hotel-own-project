@@ -1,13 +1,22 @@
 import './BookingAside.css';
-import ChooseDate from '../../assets/img/icon/bookingImg.svg';
 import GreenArrowNew from '../../assets/img/icon/arrowGreen.png';
-import BookingPerson from '../../assets/img/icon/bookingPerson.svg';
 import Close from '../../assets/img/icon/icon-close.png';
+import { useState } from 'react';
+import Header from '../header/Header';
 
 const BookingAside = () => {
+
+    const [closeForm, setCloseForm] = useState(false);
+
+    const toggleButton = () => {
+        setCloseForm(prev => !prev);
+    };
+
+
     return (
-        <section className='bookingAsideSection'>
-            <img className='bookingAsideClose' src={Close} />
+        <section className={`bookingAsideSection ${closeForm ? 'bookingAsideSectionHidden' : ''}`}>
+            <Header toggleButton={toggleButton} />
+            <img className='bookingAsideClose' onClick={toggleButton} src={Close} />
             <h2 className='bookingAsideHeading'>
                 Book a room now
             </h2>
@@ -44,7 +53,7 @@ const BookingAside = () => {
             </div>
             <div className='bookingAsideJustALine'></div>
             <button className='bookingAsideBtn'>Check</button>
-        </section>
+        </section >
     );
 }
 

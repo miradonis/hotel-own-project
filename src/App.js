@@ -12,21 +12,30 @@ function App() {
 
 	const getData = async () => {
 		const data = await getDocs(ref);
-		// console.log(data.docs[0].data());
+		data.docs.forEach(doc => {
+			console.log(doc.data());
+		});
+		// console.log(data.docs[1].data());
 	}
-
-	const setData = async (parameter) => {
-		addDoc(ref, parameter);
-	}
-
-	const updateDate = async (parameter) => {
-		const docRef = doc(db, "hotel", "rooms")
-		const data = await getDoc(docRef)
-		await updateDoc(docRef, { ...data.data(), ALLES1: parameter })
-	}
-	updateDate({ Bad: "wie geleckt" });
 
 	getData();
+
+	// ------------------ Neue Daten in Firebase speichern
+
+	// const docRef = addDoc(ref, {
+	// 	roomNumber: 000,
+	// 	available: true,
+	// 	price: 60,
+	// 	type: "Suite",
+	// 	doubleBed: true
+	// })
+
+
+
+
+
+
+
 	/* ENDE!!!!!!!!! FIREBASE ------------------ Datenbank */
 
 	return (

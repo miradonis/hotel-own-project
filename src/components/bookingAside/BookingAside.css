@@ -8,12 +8,19 @@
     background-color: #FEF6F3;
     color: #777777;
     font-family: JosefineSans;
+    box-shadow: 1px 1px 15px #777777;
+    border: 1px solid #556b2f;
+}
+
+.bookingAsideSectionHidden {
+    visibility: hidden;
 }
 
 .bookingAsideClose {
     width: 40px;
     margin: 1% 1% 5% 0;
     align-self: flex-end;
+    cursor: pointer;
 }
 
 .bookingAsideHeading {
