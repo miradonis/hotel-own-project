@@ -23,6 +23,22 @@ body {
 	src: url('../src/assets/fonts/JosefinSans-Italic.ttf');
 }
 
+/* -------for all components------ */
+.Section {
+	width: 70vw;
+	margin: 15vh auto;
+}
+.justALine {
+    background-color: #747474;
+    height: 1px;
+    margin-bottom: 10vh;
+}
+
+
+
+
+
+
  /* * {
 	outline: 1px solid #f00 !important;
 } */
