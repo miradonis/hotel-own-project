@@ -1,6 +1,5 @@
-.certificationSection {
-    width: 70%;
-    margin: 0 auto 30vh auto;
+.certification {
+    margin: 20vh auto;
     font-family: JosefineSans;
     color: #777777;
 }
@@ -10,19 +9,13 @@
     font-size: 2.3rem;
 }
 
-.justALine {
-    background-color: #747474;
-    height: 1px;
-    margin-bottom: 10vh;
-}
-
 .certificationsBoxes {
     display: flex;
     width: 100%;
     justify-content: space-around;
 }
 
-.certification {
+.certificationSingleBox {
     width: 30%;
     display: flex;
     align-items: center;

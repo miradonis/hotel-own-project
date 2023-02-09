@@ -1,6 +1,4 @@
-.iconsAndTextSection {
-    width: 70%;
-    margin: 10vh auto;
+.iconsAndText {
     font-family: JosefineSans;
     background-color: white;
     color: #777777;
@@ -9,12 +7,6 @@
 .iconsAndTextHeading {
     color: #A24352;
     font-size: 2.3rem;
-}
-
-.justALine {
-    background-color: #747474;
-    height: 1px;
-    margin-bottom: 10vh;
 }
 
 .iconsAndTextBox {

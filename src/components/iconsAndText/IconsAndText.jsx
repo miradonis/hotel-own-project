@@ -11,7 +11,7 @@ const IconsAndText = () => {
     {/* icons with explanations of what the hotel offers. Corona component added at the end */ }
 
     return (
-        <section className='iconsAndTextSection'>
+        <section className='iconsAndText Section'>
             <h1 className='iconsAndTextHeading'>Hotel Information</h1>
             <div className='justALine'></div>
             <article className='iconsAndTextBox'>

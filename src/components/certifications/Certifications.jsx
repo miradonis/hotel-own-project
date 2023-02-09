@@ -7,14 +7,14 @@ const Certifications = () => {
     {/* certifications icons listing the individual points for the respective certification */ }
 
     return (
-        <section className='certificationSection'>
+        <section className='certification Section'>
             <h2 className='certificationHeading'>
                 Certifications & Customer reviews
             </h2>
             <div className='justALine'></div>
             <article className='certificationsBoxes'>
                 {/* Box for World Certification */}
-                <div className='certification'>
+                <div className='certificationSingleBox'>
                     <img className='certificationIcon World' src={World} alt='Check Siegel'></img>
                     <p className='certificationText'></p>
                     <ul className='certificationUl'>
@@ -31,7 +31,7 @@ const Certifications = () => {
                 </div>
 
                 {/* Box for Premium Certification */}
-                <div className='certification'>
+                <div className='certificationSingleBox'>
                     <img className='certificationIcon Premium' src={Premium} alt='Preium Siegel'></img>
                     <p className='certificationText'></p>
                     <ul className='certificationUl'>
@@ -48,7 +48,7 @@ const Certifications = () => {
                 </div>
 
                 {/* Box for Check Certification */}
-                <div className='certification'>
+                <div className='certificationSingleBox'>
                     <img className='certificationIcon Check' src={Check} alt='Check Siegel'></img>
                     <p className='certificationText'></p>
                     <ul className='certificationUl'>

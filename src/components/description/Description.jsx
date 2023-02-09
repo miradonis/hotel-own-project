@@ -5,7 +5,7 @@ const Description = () => {
     {/* description about the hotel */ }
 
     return (
-        <section className='descriptionSection'>
+        <section className='description Section'>
             <article>
                 <h2 className='descriptionHeading'>
                     The Hotel Lamoure on every beach in the world

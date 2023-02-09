@@ -4,7 +4,7 @@ import RoomDescription from '../roomDescription/RoomDescription';
 
 const Rooms = () => {
     return (
-        <section className='roomsSection'>
+        <section className='rooms Section'>
             <div id='roomsAnker' className='roomsDivForLink'></div>
             <h2 className='roomsHeading'>Rooms</h2>
             <div className='justALine'></div>

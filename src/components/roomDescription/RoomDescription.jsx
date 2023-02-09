@@ -2,7 +2,7 @@ import './RoomDescription.css';
 
 const RoomDescription = () => {
     return (
-        <section className='roomDescriptionSection'>
+        <section className='roomDescription Section'>
 
             {/* Description for Rooms ---------------------- */}
             <p className='roomDescriptionParagraph'>
