@@ -11,8 +11,8 @@ The website is still a work in progress
   - react-router-dom
   - react-slick
   - slick-carousel
+  - Firebase: send and receive data
 -----------------------------------------------------------------------
-- ❗️Firebase is available but not used yet
 
 Goals:
   - Book and cancel rooms
