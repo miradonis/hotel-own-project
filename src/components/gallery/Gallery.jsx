@@ -8,6 +8,9 @@ import Cafe from '../../assets/img/gallery/cafe.jpeg';
 import Cocktail from '../../assets/img/gallery/cocktail.jpeg';
 import Restaurant from '../../assets/img/gallery/restaurant.jpeg';
 import RelaxingArea from '../../assets/img/gallery/relaxingArea.jpeg';
+import HotelNight from '../../assets/img/gallery/hotelNight.jpeg';
+import PoolBeach from '../../assets/img/gallery/poolBeach.jpeg';
+import Food from '../../assets/img/gallery/food.jpeg';
 import { useState } from 'react';
 
 const images = [
@@ -19,7 +22,10 @@ const images = [
     Cafe,
     RelaxingArea,
     Restaurant,
-    Cocktail
+    Cocktail,
+    HotelNight,
+    PoolBeach,
+    Food
 ];
 
 const Gallery = () => {
