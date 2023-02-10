@@ -11,19 +11,31 @@ const BookingForm = () => {
                 /* ----------Choose Date---------- */
             }
             <div className='bookingFormChooseDate'>
-                <img className='bookingFormImg' src={ChooseDate} />
-                <p className='bookingFormParagraph'>Arrival</p>
+                <div className='bookingFormArrival'>
+                    <p className='bookingFormParagraph'>Arrival</p>
+                    <input type='date'></input>
+                </div>
+
                 <img className='bookingFormGreenArrow' src={GreenArrowNew} />
-                <img className='bookingFormImg' src={ChooseDate} />
-                <p className='bookingFormParagraph'>Departure</p>
+                <div className='bookingFormDeparture'>
+                    <p className='bookingFormParagraph'>Departure</p>
+                    <input type='date'></input>
+                </div>
+
             </div>
             {
                 /* -----Choose Room and number of people----- */
             }
             <div className='bookingChoosePersonRoom'>
-                <img className='bookingPersonImg' src={BookingPerson} />
-                <p className='bookingPersonParagraph'>1 Room, 1 Adult</p>
+                <p className='bookingPersonParagraph'>Guest, Guests</p>
+                <select className='bookingFormSelect'>
+                    <option value="1">1 Guest</option>
+                    <option value="2">2 Guests</option>
+                    <option value="3">3 Guests</option>
+                    <option value="4">4 Guests</option>
+                </select>
             </div>
+
             <button className='bookingBtn'>Check</button>
         </section>
     );
