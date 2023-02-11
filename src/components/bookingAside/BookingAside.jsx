@@ -1,7 +1,7 @@
 import './BookingAside.css';
 import GreenArrowNew from '../../assets/img/icon/arrowGreen.png';
 import Close from '../../assets/img/icon/icon-close.png';
-import Header from '../header/Header';
+import { motion } from "framer-motion";
 
 const BookingAside = ({ openForm, setOpenForm }) => {
 
@@ -13,10 +13,16 @@ const BookingAside = ({ openForm, setOpenForm }) => {
     const toggleButton = () => {
         setOpenForm(prev => !prev);
     };
-
-
     return (
-        <section className={`bookingAsideSection ${!openForm ? 'bookingAsideSectionHidden' : ''}`}>
+        <motion.section className={`bookingAsideSection ${!openForm ? 'bookingAsideSectionHidden' : ''}`}
+            initial={{ opacity: 0, scale: 0.5 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{
+                duration: 0.8,
+                delay: 0.2,
+                ease: [0, 0.71, 0.2, 1.01]
+            }}
+        >
 
             {
                 /* Durch Klick wird die Funktion toggleButton ausgelößt die den useState in Header ändert*/
@@ -39,9 +45,7 @@ const BookingAside = ({ openForm, setOpenForm }) => {
                     </p>
                     <input type='date'></input>
                 </div>
-
             </div>
-
             <div className='bookingAsideChoosePersonRoomBox'>
                 <div className='bookingAsideChoosePersonText'>
                     <p className='bookingAsidePersonParagraph'>
@@ -57,7 +61,7 @@ const BookingAside = ({ openForm, setOpenForm }) => {
             </div>
             <div className='bookingAsideJustALine'></div>
             <button className='bookingAsideBtn'>Check</button>
-        </section >
+        </motion.section >
     );
 }
 

@@ -9,13 +9,12 @@ import InfoSign from '../../assets/img/icon/icon-information.svg';
 
 const IconsAndText = () => {
     {/* icons with explanations of what the hotel offers. Corona component added at the end */ }
-
     return (
         <section className='iconsAndText Section'>
+            <div id='iconsAndTextDivAnker' className='iconsAndTextDivForLink'></div>
             <h1 className='iconsAndTextHeading'>Hotel Information</h1>
             <div className='justALine'></div>
             <article className='iconsAndTextBox'>
-
                 {/* first IconBox ------- Icon and Infotmation */}
                 <div className='iconsAndTextImg'>
                     <img src={Calender} alt='Calendar' />
@@ -26,7 +25,6 @@ const IconsAndText = () => {
                         </p>
                     </div>
                 </div>
-
                 {/* second IconBox ------- Icon and Infotmation */}
                 <div className='iconsAndTextImg'>
                     <img src={Parking} alt='Calendar' />
@@ -37,7 +35,6 @@ const IconsAndText = () => {
                         </p>
                     </div>
                 </div>
-
                 {/* third IconBox ------- Icon and Infotmation */}
                 <div className='iconsAndTextImg'>
                     <img src={Cutlery} alt='Calendar' />
@@ -48,7 +45,6 @@ const IconsAndText = () => {
                         </p>
                     </div>
                 </div>
-
                 {/* fourth IconBox ------- Icon and Infotmation */}
                 <div className='iconsAndTextImg'>
                     <img src={Paw} alt='Calendar' />
@@ -59,7 +55,6 @@ const IconsAndText = () => {
                         </p>
                     </div>
                 </div>
-
                 {/* fifth IconBox  ------- Icon and Infotmation*/}
                 <div className='iconsAndTextImg'>
                     <img src={Wifi} alt='Calendar' />
@@ -70,7 +65,6 @@ const IconsAndText = () => {
                         </p>
                     </div>
                 </div>
-
                 {/* sixth IconBox ------- Icon and Infotmation */}
                 <div className='iconsAndTextImg'>
                     <img src={NoSmoking} alt='Calendar' />
@@ -82,8 +76,6 @@ const IconsAndText = () => {
                     </div>
                 </div>
             </article>
-
-
             {/* CoronaBox-Component ------ link to detailed corona information (Link is missing) */}
             <article className='coronaSection'>
                 <div className='coronaIconAndHeading'>
@@ -101,7 +93,6 @@ const IconsAndText = () => {
                     </p>
                 </div>
             </article>
-
         </section>
     );
 }

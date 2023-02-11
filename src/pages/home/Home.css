@@ -7,45 +7,13 @@
     background-repeat: no-repeat;
 }
 
-/* .homeArticle {
-    height: 75vh;
-    width: 100%; 
-    background-image: url('../../assets/img/hotelanlage-unsplash.jpeg');
-    background-size: cover;
-    background-repeat: no-repeat;
-} */
-
-
-/* bar at the end of the section */
-.firstSection {
-    height: 15vh;
-    width: 100%;
-    background-color: #4E483E;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.firstBox {
-    width: 60%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.firstText {
-    margin: 0 auto;
-    font-family: JosefineSans;
-    font-size: 1.5rem;
-    color: white;
-    text-align: center;
-}
-
-.firstSpan {
-    font-size: 2rem;
-}
-
-.firstImg {
-    width: 6%;
+.progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10px;
+    background-color: #556B2F;
+    transform-origin: 0%;
+    z-index: 3;
 }
