@@ -7,6 +7,8 @@
     background-repeat: no-repeat;
 }
 
+
+/* ------style for motion scrollbar------ */
 .progress-bar {
     position: fixed;
     top: 0;
@@ -15,5 +17,5 @@
     height: 10px;
     background-color: #556B2F;
     transform-origin: 0%;
-    z-index: 3;
+    z-index: 2;
 }
