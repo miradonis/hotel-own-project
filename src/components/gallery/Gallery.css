@@ -3,8 +3,10 @@
     height: 17vh;
 }
 
-.gallery {
-    height: 110vh;
+.gallerySection {
+    width: 70vw;
+    margin: 0 auto;
+    padding-bottom: 30%;
 }
 
 .galleryHeading {

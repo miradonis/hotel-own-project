@@ -1,5 +1,4 @@
 import './Description.css';
-import GoogleMaps from '../../assets/img/google-maps.png';
 
 const Description = () => {
     {/* description about the hotel */ }

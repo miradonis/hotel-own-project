@@ -12,6 +12,7 @@ The website is still a work in progress
   - react-slick
   - slick-carousel
   - Firebase: send and receive data
+  - Framer Motion
 -----------------------------------------------------------------------
 
 Goals:

@@ -3,7 +3,6 @@ import { db } from './Firebase';
 import { collection, getDocs, updateDoc, getDoc, doc, addDoc } from 'firebase/firestore';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from './pages/home/Home';
-import BookingAside from './components/bookingAside/BookingAside';
 
 function App() {
 
@@ -20,7 +19,7 @@ function App() {
 
 	getData();
 
-	// ------------------ Neue Daten in Firebase speichern
+	// ------------------ Add new data in Firebase
 
 	// const addNewDate = addDoc(ref, {
 	// 	roomNumber: 111,
@@ -33,13 +32,15 @@ function App() {
 	/* ENDE!!!!!!!!! FIREBASE ------------------ Datenbank */
 
 	return (
-		<div className="App">
-			<Router>
-				<Routes>
-					<Route path="/" element={<Home />} />
-				</Routes>
-			</Router>
-		</div >
+		<>
+			<div className="App">
+				<Router>
+					<Routes>
+						<Route path="/" element={<Home />} />
+					</Routes>
+				</Router>
+			</div >
+		</>
 	);
 }
 

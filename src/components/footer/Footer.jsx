@@ -13,13 +13,11 @@ const Footer = () => {
                     <p>Phone: 0123/45678</p>
                     <p>Mail: AnywhereInThisWorld@abc.de</p>
                 </div>
-
                 <div className='footerSmallBox socialContact'>
                     <p className='footerHeading'>Social</p>
                     <img className='socialIcons' src={Facebook} alt='Facebook-Icon'></img>
                     <img className='socialIcons' src={Instagram} alt='Facebook-Icon'></img>
                 </div>
-
                 <div className='footerSmallBox'>
                     <p className='footerHeading'>Important</p>
                     <p>Impressum</p>

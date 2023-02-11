@@ -30,13 +30,11 @@ const images = [
 
 const Gallery = () => {
     const [selectedImage, setSelectedImage] = useState(null);
-
     return (
-        <section className='gallery Section'>
+        <section className='gallerySection'>
             <div id='galleryAnker' className='galleryDivForLink'></div>
             <h2 className='galleryHeading'>Gallery</h2>
             <div className='justALine'></div>
-
             <article className='galleryWidePicturesBox'>
                 {images.map((image, index) => (
                     <img
@@ -47,7 +45,6 @@ const Gallery = () => {
                     />
                 ))}
             </article>
-
             {/* {selectedImage && (
                 <div className='modal-overlay'>
                     <div className='modal-body'>

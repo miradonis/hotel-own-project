@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import './ImageSlider.css';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
@@ -7,7 +6,6 @@ import Rooms from '../../data/RoomsArray';
 
 const ImageSlider = () => {
     // const [sliderImages] = useState(Rooms);
-
 
     const settings = {
         dots: false,
@@ -18,8 +16,6 @@ const ImageSlider = () => {
         autoplay: true,
         autoplaySpeed: 2000,
     };
-
-
     return (
         <section className='imageSliderSection'>
             <Slider {...settings} className="sliderBox">

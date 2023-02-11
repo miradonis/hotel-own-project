@@ -1,7 +1,5 @@
 import './BookingForm.css';
-import ChooseDate from '../../assets/img/icon/bookingImg.svg';
 import GreenArrowNew from '../../assets/img/icon/arrowGreen.png';
-import BookingPerson from '../../assets/img/icon/bookingPerson.svg';
 
 const BookingForm = () => {
 
@@ -15,13 +13,11 @@ const BookingForm = () => {
                     <p className='bookingFormParagraph'>Arrival</p>
                     <input type='date'></input>
                 </div>
-
                 <img className='bookingFormGreenArrow' src={GreenArrowNew} />
                 <div className='bookingFormDeparture'>
                     <p className='bookingFormParagraph'>Departure</p>
                     <input type='date'></input>
                 </div>
-
             </div>
             {
                 /* -----Choose Room and number of people----- */
@@ -35,7 +31,6 @@ const BookingForm = () => {
                     <option value="4">4 Guests</option>
                 </select>
             </div>
-
             <button className='bookingBtn'>Check</button>
         </section>
     );

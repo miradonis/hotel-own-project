@@ -6,23 +6,17 @@ import Footer from '../../components/footer/Footer';
 import BookingForm from '../../components/bookingForm/BookingForm';
 import Header from '../../components/header/Header';
 import Description from '../../components/description/Description';
-import BookingAside from '../../components/bookingAside/BookingAside';
 import Gallery from '../../components/gallery/Gallery';
+import { motion, useScroll } from "framer-motion";
 
 const Home = () => {
     {/* big picture as background ------ components inserted */ }
+    const { scrollYProgress } = useScroll();
 
     return (
-        <section className='homeSection'>
+        <section className='homeSection' >
+            <motion.div className='progress-bar' style={{ scaleX: scrollYProgress }}></motion.div>
             <Header />
-            {/* <article className='homeArticle'></article> */}
-            {/* <article className='firstSection' >
-                <div className='firstBox'>
-                <p className='firstText'>
-                Experience a stay of exceptional class at  <span className='firstSpan'>Hotel Lamoure</span> - where excellence becomes a habit
-                </p>
-                </div>
-            </article> */}
 
             {/* -------------- COMPONENTS ---------------- */}
             <BookingForm />

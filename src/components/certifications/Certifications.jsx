@@ -5,7 +5,6 @@ import World from '../../assets/img/certifications/icon-world.svg';
 
 const Certifications = () => {
     {/* certifications icons listing the individual points for the respective certification */ }
-
     return (
         <section className='certification Section'>
             <h2 className='certificationHeading'>
@@ -29,7 +28,6 @@ const Certifications = () => {
                         </li>
                     </ul>
                 </div>
-
                 {/* Box for Premium Certification */}
                 <div className='certificationSingleBox'>
                     <img className='certificationIcon Premium' src={Premium} alt='Preium Siegel'></img>
@@ -46,7 +44,6 @@ const Certifications = () => {
                         </li>
                     </ul>
                 </div>
-
                 {/* Box for Check Certification */}
                 <div className='certificationSingleBox'>
                     <img className='certificationIcon Check' src={Check} alt='Check Siegel'></img>

@@ -11,13 +11,10 @@ const RoomDescription = () => {
             <p className='roomDescriptionParagraph'>
                 Enjoy beautiful views of the beach from your window. We also offer room service and a cleaning service.
             </p>
-
             <div className='justALine'></div>
-
             {/* Description for Suits (pictures are missing) */}
             <div className='suitBox'>
                 <p className='suitParagraph'>
-
                     The "Presidential Suite" at <span className='suitSpan'>Hotel Lamoure</span> offers guests luxurious accommodation overlooking the beach. The suite features a spacious bedroom with a king-size bed, a living room with a sofa, armchairs and a dining table, and a separate study.
                 </p>
                 <p className='suitParagraph'>
