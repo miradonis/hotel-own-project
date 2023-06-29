@@ -21,7 +21,7 @@ const Home = () => {
             {/* <Cookies /> */}
 
             {/* -------------- COMPONENTS ---------------- */}
-            <BookingForm />
+            {/* <BookingForm /> */}
             <Description />
             <IconsAndText />
             <Rooms />
