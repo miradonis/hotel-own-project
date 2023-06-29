@@ -10,7 +10,8 @@ import RelaxingArea from '../../assets/img/gallery/relaxingArea.jpeg';
 import HotelNight from '../../assets/img/gallery/hotelNight.jpeg';
 import PoolBeach from '../../assets/img/gallery/poolBeach.jpeg';
 import Food from '../../assets/img/gallery/food.jpeg';
-import { useState } from 'react';
+import close from '../../assets/img/icon/icon-close.png';
+import { useState, useEffect } from 'react';
 
 const images = [
     Breakfast,
@@ -28,6 +29,16 @@ const images = [
 
 const Gallery = () => {
     const [selectedImage, setSelectedImage] = useState(null);
+
+    const handleImageClick = (image) => {
+        setSelectedImage(image);
+    };
+
+    const handleCloseModal = () => {
+        setSelectedImage(null);
+    }
+
+
     return (
         <section className='gallerySection'>
             <div id='galleryAnker' className='galleryDivForLink'></div>
@@ -39,15 +50,14 @@ const Gallery = () => {
                         key={index}
                         className='gallery WidePictures'
                         src={image}
-                        onClick={() => setSelectedImage(image)}
+                        onClick={() => handleImageClick(image)}
                     />
                 ))}
             </article>
             {selectedImage && (
-                <div className='modal-overlay'>
+                <div className='modal-overlay' onClick={handleCloseModal}>
                     <div className='modal-body'>
-                        <img className='modalImg' src={selectedImage} />
-                        <button className='modalBtn' onClick={() => setSelectedImage(null)}>Close</button>
+                        <img className='modalImg' src={selectedImage} alt='Selected Image' />
                     </div>
                 </div>
             )}
